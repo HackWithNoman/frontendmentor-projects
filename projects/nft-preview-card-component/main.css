@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+@theme {
+  /* Primary */
+  --color-blue-500: hsl(215, 51%, 70%);
+  --color-cyan-400: hsl(178, 100%, 50%);
+
+  /* Neutral */
+  --color-blue-950: hsl(217, 54%, 11%);
+  --color-blue-900: hsl(216, 50%, 16%);
+  --color-blue-800: hsl(215, 32%, 27%);
+  --color-white: hsl(0, 0%, 100%);
+
+  /* Fonts */
+  --font-outfit: "Outfit", sans-serif;
+}
