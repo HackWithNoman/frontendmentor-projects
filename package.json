@@ -1,0 +1,19 @@
+{
+  "name": "frontendmentor-projects",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+        "dev": "tailwindcss -i main.css -o output.css --watch"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.1",
+    "tailwindcss": "^4.2.1"
+  }
+}
